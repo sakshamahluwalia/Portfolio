@@ -1,0 +1,101 @@
+body {
+	font-family: Lato;
+	background: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.5), 
+      rgba(255, 0, 0, 0.5)
+    ),
+    url(http://i.huffpost.com/gen/2957466/images/o-TORONTO-VIEW-facebook.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#header {
+  background: none;
+  text-align: center;
+  color: white;
+}
+
+.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: white; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+  max-width: 750px
+
+}
+
+.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 28px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: white; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px;
+  max-width: 750px
+}
+
+.style18.special:before {
+  border-color: black;
+}
+
+.links {
+  background: none;
+  width: 31%;
+  margin: 1%;
+  height: 200px;
+}
+
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+
+.blind {
+  display: none;
+}
+
+.media {
+  margin: auto;
+}
+
+.media-object {
+  width: 500px;
+  height: 250px;
+  padding: 0%;
+  border: none;
+  border-radius: 20px;
+}
+
+.sideprojects {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  color: rgb(230, 230, 230);
+  padding-top: 30px;
+  padding-right: 10px;
+}
+
+#linkdeintag {
+  color: black;
+  font-size: xx-large;
+}
+
+#githublink {
+  text-align: center;
+  font-size: xx-large;
+}
+
+#github {
+  color: gold;
+}
+
+.linkedin {
+  text-align: center;
+}
