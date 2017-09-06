@@ -55,13 +55,10 @@
 
 .aboutme {
     background:
-	url(http://allswalls.com/images/vintage-pattern-wallpaper-10.jpg);
+	url(http://crossbar.ch/wordpress/wp-content/uploads/2015/07/Backgrounds_Wallpaper_with_ornament_035516_.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 100%;
-}
-
-#aboutp {
-  text-align: justify;
+	text-align: justify;
 }
