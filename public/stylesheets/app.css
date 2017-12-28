@@ -1,6 +1,6 @@
 .body {
 	background: 
-	url(http://www.intrawallpaper.com/static/images/6840713-pattern-wallpaper_k4PmnnQ.jpg);
+	url(https://i1.wp.com/thesagonline.com/wp-content/uploads/2011/09/light-blue-background.jpeg?ssl=1);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -10,19 +10,22 @@
 
 .jumbotron {
   text-align: center;
-  color: white;
+  background: none;
 }
 
 .jumbobtn {
   border: 1px solid white;
   padding: 0.5%;
   margin: 10px;
-  color: white;
 }
 
 .invis {
-  background: none;
   color: white;
+}
+
+.black {
+    color: black;
+    border-color: black;
 }
 
 .w-100 {
@@ -38,11 +41,15 @@
 
 #projects {
   background:
-	url(http://crossbar.ch/wordpress/wp-content/uploads/2015/07/Backgrounds_Wallpaper_with_ornament_035516_.jpg);
+	url(http://goldwallpapers.com/uploads/posts/matrix-wallpaper-1920x1080/matrix_wallpaper_1920x1080_001.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 100%;
+}
+
+.card {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) );
 }
 
 .toleft {
@@ -55,7 +62,7 @@
 
 .aboutme {
     background:
-	url(http://crossbar.ch/wordpress/wp-content/uploads/2015/07/Backgrounds_Wallpaper_with_ornament_035516_.jpg);
+	url(https://vignette1.wikia.nocookie.net/assassinscreed/images/b/b9/ACBSP_2011-06-05_08-28-02-05.jpg/revision/latest?cb=20110607233617);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
