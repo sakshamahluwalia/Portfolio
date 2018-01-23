@@ -23,6 +23,10 @@ app.get("/projects/page3", function(req, res){
     res.render("projects[2]");
 });
 
+app.get("/projects/page4", function(req, res){
+    res.render("projects[3]");
+});
+
 app.get("/about", function(req, res) {
     res.render("about");
 });
