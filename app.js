@@ -1,5 +1,6 @@
 var express     = require("express"),
     app         = express(),
+    projectDB    = require("./seed"),
     bodyParser  = require("body-parser");
 
 app = express();
@@ -8,23 +9,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", function(req, res) {
-    res.render("home");
-});
-
-app.get("/projects", function(req, res){
-    res.render("projects(main)");
-});
-
-app.get("/projects/page2", function(req, res){
-    res.render("projects[1]");
-});
-
-app.get("/projects/page3", function(req, res){
-    res.render("projects[2]");
-});
-
-app.get("/projects/page4", function(req, res){
-    res.render("projects[3]");
+    res.render("home", {projects: projectDB});
 });
 
 app.get("/about", function(req, res) {

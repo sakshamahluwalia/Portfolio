@@ -11,16 +11,42 @@
 	<div class="jumbotron">
 		<div class="container">
 			<h1><strong>DEVELOPER.</strong></h1>
-
-			<span class="jumbobtn black">
-				<a href="/projects" class="black"><strong>PROJECTS</strong></a>
-			</span>
 			
 			<span class="jumbobtn black">
-					<a href="/about" class="black"><strong>ABOUT ME</strong></a>
+				<a href="/about" class="black"><strong>ABOUT ME</strong></a>
 			</span>
 		</div>
 	</div>
+</div>
+
+<div class="max">
+
+    <div class="container paddingtop">
+        
+        <% projects.forEach(function(project) {  %>
+        
+        <div class="card invis jumbobtn">
+          <h4 class="card-header"> <%= project.name %> </h4>
+          <div class="card-body">
+            <p class="card-text"> <%= project.description %> </p>
+            <a href=<%= project.gitlink %> class="btn btn-danger">View Source Code</a>
+            
+            <% if (project.alink != "") { %>
+            
+            	<a href=<%= project.alink %> class="btn btn-info">Visit YelpCamp</a>
+            
+            <% } %>
+            
+          </div>
+        </div>
+        
+        <div class="w-100"></div>
+        
+        <% }); %>
+
+    </div>
+
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
