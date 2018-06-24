@@ -1,11 +1,33 @@
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+hr {
+  width: 20%;
+}
+
 .max {
+  background-image:
+  /*url(https://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-minimalist-wallpaper-HD-desktop-download.png);*/
+  url("planet_down.png");
+  background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
     height: 100%;
     width: 100%;
 }
 
 .body {
 	background: 
-	url(https://i1.wp.com/thesagonline.com/wp-content/uploads/2011/09/light-blue-background.jpeg?ssl=1);
+	/*url(https://i1.wp.com/thesagonline.com/wp-content/uploads/2011/09/light-blue-background.jpeg?ssl=1);*/
+	/*url(http://hdqwalls.com/wallpapers/forest-minimalist-po.jpg);*/
+	/*url(https://c.wallhere.com/photos/61/f4/logo_The_Elder_Scrolls_V_Skyrim_video_games_minimalism-262582.jpg!d);*/
+	/*url(https://c.wallhere.com/photos/fc/a7/1920x1200_px_minimalism_The_Elder_Scrolls_V_Skyrim-669113.jpg!d);*/
+	/*url(https://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-minimalist-wallpaper-HD-desktop-download.png);*/
+	url("planet_org.png");
+	
+  background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -16,6 +38,10 @@
 .jumbotron {
   text-align: center;
   background: none;
+  display:flex;
+  height:100%;
+  justify-content:center;
+  align-items:center;
 }
 
 .jumbobtn {
@@ -44,15 +70,6 @@
   padding-top: 50px;
 }
 
-#projects {
-  background:
-	url(https://mexmob.files.wordpress.com/2016/04/768235-floral-floral-texture-gradient-graphics-pattern-vectors.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-}
-
 .card {
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) );
 }
@@ -66,16 +83,38 @@
 }
 
 .aboutme {
-    background:
-	url(https://wallpaperscraft.com/image/patterns_background_dark_texture_50408_2560x1440.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-	text-align: justify;
-	font-weight: 500;
+  background: 
+    /*url(http://hdqwalls.com/wallpapers/forest-minimalist-po.jpg);*/
+    /*url(https://c.wallhere.com/photos/61/f4/logo_The_Elder_Scrolls_V_Skyrim_video_games_minimalism-262582.jpg!d);*/
+    /*url(http://www.coolwallpapers.me/download/1059/Black_Abstract_Hills.jpg/);*/
+    /*url(http://cdn.paperhi.com/1600x900/20130314/hello%20world%201600x900%20wallpaper_www.paperhi.com_99.jpg);*/
+    url(http://www.theminimalists.com/wp-content/uploads/2010/12/keepitsimplewhite1280x800.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+  font-weight: 500;
 }
 
-#aboutp {
-    margin-top: -30px;
+.aboutp {
+    display: inherit;
+    margin-top: 7%;
+}
+
+.aboutmepara {
+  text-align: justify;
+}
+
+#clocktext {
+  padding-bottom: 10px;
+  font-kerning:none;
+}
+
+#linkedInIcon {
+  padding-top: 10%;
+}
+
+#linkedInIconTag {
+  color: #ff0050;
 }

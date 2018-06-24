@@ -12,10 +12,6 @@ app.get("/", function(req, res) {
     res.render("home", {projects: projectDB});
 });
 
-app.get("/about", function(req, res) {
-    res.render("about");
-});
-
 app.listen(process.env.PORT, process.env.IP, function() {
     console.log("Server Up");
 });
