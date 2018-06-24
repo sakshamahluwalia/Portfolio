@@ -32,7 +32,7 @@ hr {
 	background-size: cover;
 	width: 100%;
 	height: 100%;
-	padding: 15%;
+	padding: 16%;
 }
 
 .jumbotron {
@@ -83,14 +83,14 @@ hr {
 }
 
 .aboutme {
-  background: 
+  /*background: */
     /*url(http://hdqwalls.com/wallpapers/forest-minimalist-po.jpg);*/
     /*url(https://c.wallhere.com/photos/61/f4/logo_The_Elder_Scrolls_V_Skyrim_video_games_minimalism-262582.jpg!d);*/
     /*url(http://www.coolwallpapers.me/download/1059/Black_Abstract_Hills.jpg/);*/
     /*url(http://cdn.paperhi.com/1600x900/20130314/hello%20world%201600x900%20wallpaper_www.paperhi.com_99.jpg);*/
-    url(http://www.theminimalists.com/wp-content/uploads/2010/12/keepitsimplewhite1280x800.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    /*url(http://www.theminimalists.com/wp-content/uploads/2010/12/keepitsimplewhite1280x800.jpg);*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
   width: 100%;
   height: 100%;
   text-align: justify;
@@ -99,7 +99,7 @@ hr {
 
 .aboutp {
     display: inherit;
-    margin-top: 7%;
+    /*margin-top: 7%;*/
 }
 
 .aboutmepara {
