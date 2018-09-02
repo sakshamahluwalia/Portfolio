@@ -78,7 +78,7 @@
 		        <% if (project.owner.login == "sakshamahluwalia") { %>
 		      
 			        <div class="card invis jumbobtn">
-			          <h4 class="card-header"> <%= project.name %> </h4>
+			          <h4 class="card-header"> <%= project.name.replace(/-/g, ' ') %> </h4>
 			          <div class="card-body">
 			            <p class="card-text"> <%= project.description %> </p>
 			            <a href=<%= project.html_url %> class="btn btn-danger">View Source Code</a>
