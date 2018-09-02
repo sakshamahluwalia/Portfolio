@@ -82,6 +82,14 @@ hr {
   padding-left: 40%;
 }
 
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
 .aboutme {
   /*background: */
     /*url(http://hdqwalls.com/wallpapers/forest-minimalist-po.jpg);*/
@@ -99,7 +107,7 @@ hr {
 
 .aboutp {
     display: inherit;
-    /*margin-top: 7%;*/
+    margin-top: 7%;
 }
 
 .aboutmepara {

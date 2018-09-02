@@ -1,6 +1,5 @@
 var express     = require("express"),
     app         = express(),
-    projectDB    = require("./seed"),
     GitHub      = require("github-api"),
     bodyParser  = require("body-parser");
     
