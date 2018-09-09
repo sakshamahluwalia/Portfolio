@@ -30,28 +30,25 @@ hr {
   background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100%;
-	height: 100%;
-	padding: 16%;
 }
 
 .jumbotron {
   text-align: center;
   background: none;
   display:flex;
-  height:100%;
   justify-content:center;
   align-items:center;
+  height: -webkit-fill-available;
 }
 
 .jumbobtn {
-  border: 1px solid white;
   padding: 0.5%;
   margin: 10px;
 }
 
 .invis {
   color: white;
+  border-color: white;
 }
 
 .black {
@@ -72,6 +69,7 @@ hr {
 
 .card {
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) );
+    border: 1px solid white;
 }
 
 .toleft {
@@ -107,16 +105,20 @@ hr {
 
 .aboutp {
     display: inherit;
-    margin-top: 7%;
 }
 
 .aboutmepara {
   text-align: justify;
 }
 
-#clocktext {
+.clocktext {
+  display: inline;
   padding-bottom: 10px;
-  font-kerning:none;
+}
+
+.typed-cursor {
+  font-size: xx-large;
+  color: white;
 }
 
 #linkedInIcon {
@@ -138,4 +140,9 @@ hr {
 
 #myBtn:hover {
   background-color: #ff0050;
+}
+
+#projectheading { 
+  text-align: center;
+  padding-top: 8rem;
 }

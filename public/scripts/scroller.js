@@ -1,5 +1,16 @@
-var textElem = document.getElementById("clocktext");
-var counter = 0;
+// var textElem = document.getElementById("clocktext");
+// var counter = 0;
+// import Typed from 'typed.js';
+
+var options = {
+  strings: ["Developer.", "Designer."],
+  typeSpeed: 70,
+  backSpeed: 50,
+  smartBackspace: false,
+  loop: true,
+}
+
+var typed = new Typed(".clocktext", options);
 
 $(document).ready(function() {
     $('.abtn').click(function(){
@@ -44,22 +55,21 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-function updateClock() {
-	var d = new Date();
-	var s = "{ ";
-	var text = ["D", "DE", "DEV", "DEVE", "DEVEL", "DEVELO", "DEVELOP", "DEVELOPE", "DEVELOPER", "DEVELOPER."];
-	s += text[counter++];
-	s += " }"
-	textElem.textContent = s;
-	if (counter == 10) {
-		counter = 0;
-		setTimeout(updateClock, 3000);
-	} else {
-		setTimeout(updateClock, 300);
-	}
-}
-
-updateClock();
+// function updateClock() {
+// 	var d = new Date();
+// 	var s = "{ ";
+// 	var text = ["D", "DE", "DEV", "DEVE", "DEVEL", "DEVELO", "DEVELOP", "DEVELOPE", "DEVELOPER", "DEVELOPER."];
+// 	s += text[counter++];
+// 	s += " }"
+// 	textElem.textContent = s;
+// 	if (counter == 10) {
+// 		counter = 0;
+// 		setTimeout(updateClock, 3000);
+// 	} else {
+// 		setTimeout(updateClock, 300);
+// 	}
+// }
+// updateClock();
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 $( window ).resize(function() {
