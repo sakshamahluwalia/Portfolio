@@ -84,7 +84,7 @@
 		        
 		        <% repos.forEach(function(project) {  %>
 		        
-		        <% if (project.owner.login == "sakshamahluwalia") { %>
+		        <% if (project.owner.login == "sakshamahluwalia") && project.private { %>
 		      
 			        <div class="card invis jumbobtn">
 			          <h4 class="card-header"> <%= project.name.replace(/-/g, ' ') %> </h4>
