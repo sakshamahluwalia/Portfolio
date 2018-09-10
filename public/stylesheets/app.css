@@ -104,11 +104,11 @@ hr {
   height: 100%;
   text-align: justify;
   font-weight: 500;
-  min-height: 715px;
 }
 
 .aboutp {
     display: inherit;
+    padding: 0px;
 }
 
 .aboutmepara {
