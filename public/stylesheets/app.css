@@ -11,11 +11,11 @@ hr {
   background-image:
   /*url(https://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-minimalist-wallpaper-HD-desktop-download.png);*/
   url("planet_down.png");
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 	background-repeat: no-repeat;
 	background-size: cover;
     height: 100%;
-    width: 100%;
+    width: auto;
 }
 
 .body {
@@ -27,12 +27,13 @@ hr {
 	/*url(https://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-minimalist-wallpaper-HD-desktop-download.png);*/
 	url("planet_org.png");
 	
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 	background-repeat: no-repeat;
 	background-size: cover;
+	width: auto;
 	height: 100%;
 	padding: 16%;
-	min-height: 715px;
+	/*min-height: 715px;*/
 }
 
 .jumbotron {
@@ -41,7 +42,8 @@ hr {
   display:flex;
   justify-content:center;
   align-items:center;
-  height: -webkit-fill-available;
+  padding-bottom: 11.5%;
+  /*height: -webkit-fill-available;*/
 }
 
 .jumbobtn {
@@ -104,6 +106,7 @@ hr {
   height: 100%;
   text-align: justify;
   font-weight: 500;
+  padding-bottom: 11.25%;
 }
 
 .aboutp {
