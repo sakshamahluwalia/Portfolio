@@ -91,7 +91,7 @@
 		        
 		        <% repos.forEach(function(project) {  %>
 		        
-		        <% if (project.owner.login == "sakshamahluwalia" && !project.private) { %>
+		        <% if (project.owner.login == "sakshamahluwalia" && !project.private && !project.description.includes("csc")) { %>
 		      
 			        <div class="card invis jumbobtn">
 			          <h4 class="card-header"> <%= project.name.replace(/-/g, ' ') %> </h4>
