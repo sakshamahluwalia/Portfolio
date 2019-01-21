@@ -91,31 +91,33 @@
 		        
 		        <% repos.forEach(function(project) {  %>
 		        
-		        <% if (project.owner.login == "sakshamahluwalia" && !project.private && !project.description.includes("csc")) { %>
+		        <% if (project.owner.login == "sakshamahluwalia" && !project.private) { %>
+
+					<% if (project.description && !project.description.includes("csc")) { %>
 		      
-			        <div class="card invis jumbobtn">
-			          <h4 class="card-header"> <%= project.name.replace(/-/g, ' ') %> </h4>
-			          <div class="card-body">
-			            <p class="card-text"> <%= project.description %> </p>
-			            <a href=<%= project.html_url %> class="btn btn-danger">View Source Code</a>
-			            
-			            <% if (project.homepage != "" && project.homepage != null) { %>
-			            
-			            	<a href=<%= project.homepage %> class="btn btn-info">Visit <%= project.name %></a>
-			            
-			            <% } %>
-			            
-			            
-			          </div>
-			          <div class="card-footer text-muted">
-			          	<span class="floatLeft">Created: <%= project.created_at.substring(0, 10) %></span>
-    					<span class="floatRight">Powered by <%= project.language %></span>
-					  </div>
-			        </div>
+				        <div class="card invis jumbobtn">
+				          <h4 class="card-header"> <%= project.name.replace(/-/g, ' ') %> </h4>
+				          <div class="card-body">
+				            <p class="card-text"> <%= project.description %> </p>
+				            <a href=<%= project.html_url %> class="btn btn-danger">View Source Code</a>
+				            
+				            <% if (project.homepage != "" && project.homepage != null) { %>
+				            
+				            	<a href=<%= project.homepage %> class="btn btn-info">Visit <%= project.name %></a>
+				            
+				            <% } %>
+				            
+				            
+				          </div>
+				          <div class="card-footer text-muted">
+				          	<span class="floatLeft">Created: <%= project.created_at.substring(0, 10) %></span>
+	    					<span class="floatRight">Powered by <%= project.language %></span>
+						  </div>
+				        </div>
+			        
+			        <div class="w-100"></div>
 		        
-		        <div class="w-100"></div>
-		        
-		        <% }}); %>
+		        <% } }}); %>
 		
 		    </div>
 		    
