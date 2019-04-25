@@ -6,7 +6,7 @@ var options = {
   strings: ["Developer.", "Designer."],
   typeSpeed: 70,
   backSpeed: 50,
-  smartBackspace: false,
+  smartBackspace: true,
   loop: true,
 }
 
